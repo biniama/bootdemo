@@ -11,6 +11,7 @@ class HelloController {
 
     @RequestMapping("/")
     def index() {
-        return [ greeting: "Greetings from Spring Boot!" ]
+        //return [ greeting: "Greetings from Spring Boot!" ]
+        return "Greetings from Spring Boot!"
     }
 }
