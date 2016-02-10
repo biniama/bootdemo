@@ -1,4 +1,4 @@
-package com.hasset.controllers
+package unit.hasset.controllers
 
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
