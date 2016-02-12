@@ -1,7 +1,6 @@
-language: java
+sudo: required
+language: groovy
 jdk:
-- oraclejdk7
-- openjdk7
+  - oraclejdk8
 
-sudo: false
 script: ./gradlew build && java -jar build/libs/bootdemo-0.0.1-SNAPSHOT.jar
